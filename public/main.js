@@ -1,6 +1,7 @@
 const API_KEY = '5778a28a2a830848e559f798b1300f5b';
 const BASE_URL = 'https://api.darksky.net/forecast/';
 
+
 //Registering the serviceWorker in project
 window.addEventListener('load',()=>{
  if('serviceWorker' in navigator){
@@ -13,3 +14,12 @@ window.addEventListener('load',()=>{
   })
  }
 })
+
+
+
+changeName = ()=>{
+let inputFieldRef = document.getElementById("topic_name");
+let pRef = document.getElementById('name');
+const userData = inputFieldRef.value;
+pRef.innerHTML = "Welcome " + userData;
+}

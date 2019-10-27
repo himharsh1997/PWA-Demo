@@ -1,24 +1,56 @@
+html{
+font-size: 14px;
+margin:0px;
+}
 
 body{
+ margin:0px;
  color: grey;
 }
 
 p{
- font-family: cursive;
  color: blue;
- width:9.9rem;
+ width:19rem;
+ font-size: 3rem;
  margin-left: auto;
  margin-right: auto;
  display: block;
 }
+
+p#name{
+font-size: 1.5rem;
+color: #b0bec5;
+margin-top: 1rem;
+}
+
 img{
   display: block;
   margin-left: auto;
   margin-right: auto;
   width:5rem;
-  border: 1px solid red;
   border-radius: 20%;
 }
 img:hover{
     box-shadow: -2px 2px 7px #ccd7db;
+}
+
+.nav-icon{
+  height: 2.7rem;
+  width:2.7rem;
+  margin-top: 1rem;
+  margin-bottom: auto;
+  margin-left: 2rem;
+}
+
+.button-add{
+  display: flex;
+  width:20rem;
+  font-weight: bold;
+  margin-right: auto;
+}
+
+@media only screen and (min-width:400px and max-width: 500px){
+  html{
+      font-size: 7px;
+    }
 }

@@ -1,6 +1,6 @@
 {
-  "name": "Weather",
-  "short_name": "Weather",
+  "name": "Name App",
+  "short_name": "NameApp",
   "icons": [{
     "src": "icons.png",
       "sizes": "128x128",
@@ -8,6 +8,6 @@
     }],
   "start_url": "/index.html",
   "display": "standalone",
-  "background_color": "#3E4EB1",
-  "theme_color": "#2F3BA1"
+  "background_color": "#2196f3",
+  "theme_color": "#2196f3"
 }
